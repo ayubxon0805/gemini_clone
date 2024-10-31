@@ -3,7 +3,6 @@ import 'package:google_generative_ai/google_generative_ai.dart';
 
 class GenerateInfoScreen extends StatefulWidget {
   const GenerateInfoScreen({super.key});
-
   @override
   State<GenerateInfoScreen> createState() => _GenerateInfoScreenState();
 }
@@ -96,7 +95,7 @@ class _GenerateInfoScreenState extends State<GenerateInfoScreen> {
               children: [
                 Expanded(
                   child: Padding(
-                    padding: const EdgeInsets.only(bottom: 10),
+                    padding: const EdgeInsets.only(bottom: 10, left: 5),
                     child: TextField(
                       cursorErrorColor: Colors.red,
                       style: const TextStyle(color: Colors.white),
