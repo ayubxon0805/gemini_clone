@@ -13,7 +13,6 @@ class _GenerateInfoScreenState extends State<GenerateInfoScreen> {
   late String responseData;
   late TextEditingController userPromptController;
   late bool isLoading;
-
   @override
   void initState() {
     super.initState();
